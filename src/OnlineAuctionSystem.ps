@@ -1,0 +1,441 @@
+%!PS-Adobe-3.0
+%%Title: OnlineAuctionSystem.java
+%%For: mcallist
+%%Creator: VIM - Vi IMproved 8.1 (2018 May 18)
+%%CreationDate: Tue Oct 19 16:22:05 2021
+%%DocumentData: Clean8Bit
+%%Orientation: Portrait
+%%Pages: (atend)
+%%PageOrder: Ascend
+%%BoundingBox: 59 49 564 800
+%%DocumentMedia: A4 595 842 0 () ()
+%%DocumentNeededResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%DocumentSuppliedResources: procset VIM-Prolog 1.4 1
+%%+ encoding VIM-latin1 1.0 0
+%%Requirements: duplex collate
+%%EndComments
+%%BeginDefaults
+%%PageResources: font Courier
+%%+ font Courier-Bold
+%%+ font Courier-Oblique
+%%+ font Courier-BoldOblique
+%%PageMedia: A4
+%%EndDefaults
+%%BeginProlog
+%%BeginResource: procset VIM-Prolog
+%%BeginDocument: /usr/share/vim/vim81/print/prolog.ps
+%!PS-Adobe-3.0 Resource-ProcSet
+%%Title: VIM-Prolog
+%%Version: 1.4 1
+%%EndComments
+% Editing of this file is NOT RECOMMENDED.  You run a very good risk of causing
+% all PostScript printing from VIM failing if you do.  PostScript is not called
+% a write-only language for nothing!
+/packedarray where not{userdict begin/setpacking/pop load def/currentpacking
+false def end}{pop}ifelse/CP currentpacking def true setpacking
+/bd{bind def}bind def/ld{load def}bd/ed{exch def}bd/d/def ld
+/db{dict begin}bd/cde{currentdict end}bd
+/T true d/F false d
+/SO null d/sv{/SO save d}bd/re{SO restore}bd
+/L2 systemdict/languagelevel 2 copy known{get exec}{pop pop 1}ifelse 2 ge d
+/m/moveto ld/s/show ld /ms{m s}bd /g/setgray ld/r/setrgbcolor ld/sp{showpage}bd
+/gs/gsave ld/gr/grestore ld/cp/currentpoint ld
+/ul{gs UW setlinewidth cp UO add 2 copy newpath m 3 1 roll add exch lineto
+stroke gr}bd
+/bg{gs r cp BO add 4 -2 roll rectfill gr}bd
+/sl{90 rotate 0 exch translate}bd
+L2{
+/sspd{mark exch{setpagedevice}stopped cleartomark}bd
+/nc{1 db/NumCopies ed cde sspd}bd
+/sps{3 db/Orientation ed[3 1 roll]/PageSize ed/ImagingBBox null d cde sspd}bd
+/dt{2 db/Tumble ed/Duplex ed cde sspd}bd
+/c{1 db/Collate ed cde sspd}bd
+}{
+/nc{/#copies ed}bd
+/sps{statusdict/setpage get exec}bd
+/dt{statusdict/settumble 2 copy known{get exec}{pop pop pop}ifelse
+statusdict/setduplexmode 2 copy known{get exec}{pop pop pop}ifelse}bd
+/c{pop}bd
+}ifelse
+/ffs{findfont exch scalefont d}bd/sf{setfont}bd
+/ref{1 db findfont dup maxlength dict/NFD ed{exch dup/FID ne{exch NFD 3 1 roll
+put}{pop pop}ifelse}forall/Encoding findresource dup length 256 eq{NFD/Encoding
+3 -1 roll put}{pop}ifelse NFD dup/FontType get 3 ne{/CharStrings}{/CharProcs}
+ifelse 2 copy known{2 copy get dup maxlength dict copy[/questiondown/space]{2
+copy known{2 copy get 2 index/.notdef 3 -1 roll put pop exit}if pop}forall put
+}{pop pop}ifelse dup NFD/FontName 3 -1 roll put NFD definefont pop end}bd
+CP setpacking
+(\004)cvn{}bd
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%BeginResource: encoding VIM-latin1
+%%BeginDocument: /usr/share/vim/vim81/print/latin1.ps
+%!PS-Adobe-3.0 Resource-Encoding
+%%Title: VIM-latin1
+%%Version: 1.0 0
+%%EndComments
+/VIM-latin1[
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma /minus /period /slash
+/zero /one /two /three /four /five /six /seven
+/eight /nine /colon /semicolon /less /equal /greater /question
+/at /A /B /C /D /E /F /G
+/H /I /J /K /L /M /N /O
+/P /Q /R /S /T /U /V /W
+/X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+/grave /a /b /c /d /e /f /g
+/h /i /j /k /l /m /n /o
+/p /q /r /s /t /u /v /w
+/x /y /z /braceleft /bar /braceright /asciitilde /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/space /exclamdown /cent /sterling /currency /yen /brokenbar /section
+/dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron
+/degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered
+/cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown
+/Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis
+/Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply
+/Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls
+/agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla
+/egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide
+/oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+/Encoding defineresource pop
+% vim:ff=unix:
+%%EOF
+%%EndDocument
+%%EndResource
+%%EndProlog
+%%BeginSetup
+595 842 0 sps
+1 nc
+T F dt
+T c
+%%IncludeResource: font Courier
+/_F0 /VIM-latin1 /Courier ref
+/F0 10 /_F0 ffs
+%%IncludeResource: font Courier-Bold
+/_F1 /VIM-latin1 /Courier-Bold ref
+/F1 10 /_F1 ffs
+%%IncludeResource: font Courier-Oblique
+/_F2 /VIM-latin1 /Courier-Oblique ref
+/F2 10 /_F2 ffs
+%%IncludeResource: font Courier-BoldOblique
+/_F3 /VIM-latin1 /Courier-BoldOblique ref
+/F3 10 /_F3 ffs
+/UO -1 d
+/UW 0.5 d
+/BO -2.5 d
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(OnlineAuctionSystem.java                                                      Page 1)59.5 792.4 ms
+F0 sf
+(//package Assingment;)59.5 772.4 ms
+(import java.io.File;)59.5 752.4 ms
+(import java.util.ArrayList;)59.5 742.4 ms
+(import java.util.Scanner;)59.5 732.4 ms
+(public class OnlineAuctionSystem {)59.5 712.4 ms
+(    // Online Auction system that stores multiple Auctions/ bidders)59.5 692.4 ms
+(    // Create Auction / create Bidder /)59.5 682.4 ms
+(    // helps bidders place bid on the lots)59.5 672.4 ms
+(    // calculates the fees owed by all the bidder to the system)59.5 662.4 ms
+(    // Declaration of variable to store)59.5 632.4 ms
+(    private ArrayList<Auction> auctionsList = new ArrayList<>\(\);      //Arraylist of)59.5 622.4 ms
+( auctions to store multiple auctions)59.5 612.4 ms
+(    private ArrayList<Bidder> bidders = new ArrayList<>\(\);            // Array list )59.5 602.4 ms
+(of bidder to store multiple Bidders)59.5 592.4 ms
+(    // Constructor to create a new auction method with check constraints)59.5 562.4 ms
+(    // of bad data and Redundant lot numbers.)59.5 552.4 ms
+(    public Auction createAuction\(String name, int firstLot, int lastLot, int minBid\))59.5 542.4 ms
+({)59.5 532.4 ms
+(        boolean noRedundantLots = true;)59.5 512.4 ms
+(        boolean noBadData    = true;)59.5 502.4 ms
+(        noRedundantLots = checkRedundantLots\(firstLot,lastLot,name\);   // Check to s)59.5 482.4 ms
+(ee if Redundant lot exists)59.5 472.4 ms
+(        noBadData = noBadData\(name,firstLot,lastLot,minBid\);           // check to i)59.5 462.4 ms
+(f bad data is sent for the user)59.5 452.4 ms
+(        // if it's the first auction entered skip the redundant lot check)59.5 432.4 ms
+(        if \(auctionsList.size\(\) == 0 && noBadData\){)59.5 422.4 ms
+(            Auction a1 = new Auction\(name,firstLot,lastLot,minBid\);    // Create a n)59.5 412.4 ms
+(ew auction)59.5 402.4 ms
+(            auctionsList.add\(a1\);                                      // Adding to )59.5 392.4 ms
+(auction list)59.5 382.4 ms
+(            return a1;)59.5 372.4 ms
+(        })59.5 362.4 ms
+(        else if\(auctionsList.size\(\) > 0 && noRedundantLots && noBadData\) {)59.5 342.4 ms
+(            Auction a1 = new Auction\(name,firstLot,lastLot,minBid\);    // create a n)59.5 332.4 ms
+(ew auction object)59.5 322.4 ms
+(            auctionsList.add\(a1\);                                      // add object)59.5 312.4 ms
+( to auction list)59.5 302.4 ms
+(            return a1;)59.5 292.4 ms
+(        })59.5 282.4 ms
+(        else {)59.5 262.4 ms
+(            return null;                                              // Return Null)59.5 252.4 ms
+( in other cases)59.5 242.4 ms
+(        })59.5 232.4 ms
+(    })59.5 212.4 ms
+(    // Function that creates a new bidder and return a bidder object.)59.5 192.4 ms
+(    // adds the new bidder object to the Bidders list)59.5 182.4 ms
+(    public Bidder createBidder\(String name\){)59.5 172.4 ms
+(        // check for bad data if null or empty string is passed)59.5 152.4 ms
+(        if \(\(name == null\) || name.isEmpty\(\)\){)59.5 142.4 ms
+(            return null;                                             // Return null )59.5 132.4 ms
+(in any case)59.5 122.4 ms
+(        })59.5 112.4 ms
+(        else{)59.5 102.4 ms
+(            int id = bidders.size\(\)+1;                               // Generate bid)59.5 92.4 ms
+(der id's for new bidder)59.5 82.4 ms
+(            Bidder b1 = new Bidder\(id,name\);                         // Create a new)59.5 72.4 ms
+( with the name and id)59.5 62.4 ms
+re sp
+%%PageTrailer
+%%Page: 2 2
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(OnlineAuctionSystem.java                                                      Page 2)59.5 792.4 ms
+F0 sf
+(            this.bidders.add\(b1\);                                    // Add bidder t)59.5 772.4 ms
+(o the bidders list)59.5 762.4 ms
+(            return b1;                                               // Return bidde)59.5 752.4 ms
+(r)59.5 742.4 ms
+(        })59.5 732.4 ms
+(    })59.5 712.4 ms
+(    // Returns the auction status of each auction)59.5 692.4 ms
+(    // return a staring with Auction name / status [new/open/closed] / total of winn)59.5 682.4 ms
+(ing bids from all lot of an auction)59.5 672.4 ms
+(    public String auctionStatus\(\){)59.5 662.4 ms
+(        String auctionString = "";               // initializing the string)59.5 642.4 ms
+(        // loop through auction list and get name, status and total bid sum)59.5 622.4 ms
+(        for \(int i=0; i<auctionsList.size\(\); i++\){)59.5 612.4 ms
+(            auctionString += auctionsList.get\(i\).getName\(\)+"\\t")59.5 602.4 ms
+(                            +auctionsList.get\(i\).getStatus\(\)+"\\t")59.5 592.4 ms
+(                            +auctionsList.get\(i\).getTotalBidSum\(\)+"\\n";)59.5 582.4 ms
+(        })59.5 572.4 ms
+(        return auctionString;                     // returns the appended string)59.5 552.4 ms
+(    })59.5 542.4 ms
+(    // load bids automatically from a given file name)59.5 522.4 ms
+(    // return the number of bids placed successfully)59.5 512.4 ms
+(    public int loadBids\(String fileName\) {)59.5 502.4 ms
+(        // variable to store extract from the file)59.5 482.4 ms
+(        int numberOfValidBids = 0;)59.5 472.4 ms
+(        String stringLine="";)59.5 462.4 ms
+(        String[] splitString;)59.5 452.4 ms
+(        int bidder ;)59.5 442.4 ms
+(        int lotNo;)59.5 432.4 ms
+(        int bidAmount;)59.5 422.4 ms
+(        int status ;)59.5 412.4 ms
+(        int sucessBids =0;)59.5 402.4 ms
+(        // try to process bids from the lot)59.5 382.4 ms
+(        try{)59.5 372.4 ms
+(            File file = new File\(fileName\);)59.5 352.4 ms
+(            Scanner sc = new Scanner\(file\);)59.5 342.4 ms
+(            // loop to read each line of the file until the end of file)59.5 322.4 ms
+(            while \(sc.hasNextLine\(\)\){)59.5 312.4 ms
+(                stringLine = sc.nextLine\(\);                       // get the line of)59.5 292.4 ms
+( string from the file)59.5 282.4 ms
+(                splitString = stringLine.split\("\\t"\);       // split files based on )59.5 272.4 ms
+("\\t" spaces)59.5 262.4 ms
+(                bidder = Integer.parseInt\(splitString[0]\);)59.5 242.4 ms
+(                lotNo = Integer.parseInt\(splitString[1]\);)59.5 232.4 ms
+(                bidAmount = Integer.parseInt\(splitString[2]\);)59.5 222.4 ms
+(                status = placeBid\(lotNo, bidder, bidAmount\);)59.5 192.4 ms
+(                if\(\(status == 2\)|| \(status == 3\) || \(status == 4\)\){)59.5 172.4 ms
+(                    sucessBids++;                                  // increment the )59.5 162.4 ms
+(number of bids if it was a valid bid)59.5 152.4 ms
+(                })59.5 142.4 ms
+(            })59.5 122.4 ms
+(            return sucessBids;                                    // Return the numb)59.5 102.4 ms
+(er of successfully returned bids)59.5 92.4 ms
+(        })59.5 82.4 ms
+(        catch \(Exception e\){)59.5 72.4 ms
+(            return sucessBids;)59.5 62.4 ms
+(        })59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 3 3
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(OnlineAuctionSystem.java                                                      Page 3)59.5 792.4 ms
+F0 sf
+(    })59.5 752.4 ms
+(    // Function that placed bids on a particular lot requested by the bidder)59.5 722.4 ms
+(    public int placeBid\(int lotNumber,Integer bidderId, int bid \){)59.5 712.4 ms
+(        Bid newBid = new Bid\(lotNumber,bidderId,bid\);                               )59.5 692.4 ms
+(// create a new bid)59.5 682.4 ms
+(        int status = 1;)59.5 672.4 ms
+(        boolean bidderPresent = false;)59.5 662.4 ms
+(        bidderPresent = checkBidderIDExists\(bidderId\);                              )59.5 642.4 ms
+(// check if the bidder exists in the system)59.5 632.4 ms
+(        //check if the bidder id exits)59.5 602.4 ms
+(        if\(bidderPresent && bid > 0\){)59.5 592.4 ms
+(            // check for the Auction item in the Arraylist which contains the LOT nu)59.5 572.4 ms
+(mber requested)59.5 562.4 ms
+(            for\(int i=0; i< auctionsList.size\(\); i++\){)59.5 552.4 ms
+(                // check which auction number it belongs to)59.5 532.4 ms
+(                if\(auctionsList.get\(i\).getFirstLot\(\) <= lotNumber && lotNumber <= au)59.5 522.4 ms
+(ctionsList.get\(i\).getLastLot\(\)\){)59.5 512.4 ms
+(                    //send the bid to be placed on the lot under the auction which i)59.5 492.4 ms
+(t is present.)59.5 482.4 ms
+(                    if\(auctionsList.get\(i\).getStatus\(\) == "open"\){)59.5 472.4 ms
+(                        status = auctionsList.get\(i\).placeBid\(newBid\);)59.5 462.4 ms
+(                    })59.5 452.4 ms
+(                })59.5 442.4 ms
+(            })59.5 432.4 ms
+(        })59.5 422.4 ms
+(         return status;)59.5 412.4 ms
+(    })59.5 402.4 ms
+(    // check to see if the Bidder exists in the system)59.5 382.4 ms
+(    // return true if the bidder exits)59.5 372.4 ms
+(    public boolean checkBidderIDExists\(int bidderId\){)59.5 362.4 ms
+(        boolean status = false;)59.5 342.4 ms
+(        for \(int i=0; i<this.bidders.size\(\); i++\){)59.5 322.4 ms
+(            if\(this.bidders.get\(i\).getBidderId\(\) == bidderId\){)59.5 312.4 ms
+(                status = true;)59.5 302.4 ms
+(            })59.5 292.4 ms
+(        })59.5 282.4 ms
+(        return status;)59.5 262.4 ms
+(    })59.5 252.4 ms
+(    // Function that calculates the fees owed by all the bidder on the winning aucti)59.5 232.4 ms
+(on)59.5 222.4 ms
+(    // returns the string that with bidder name / number of lots won / total amount )59.5 212.4 ms
+(owed)59.5 202.4 ms
+(    public String feesOwed\(\) {)59.5 192.4 ms
+(        String bidderString = "";)59.5 172.4 ms
+(        // function the clears the bidder data before calculating)59.5 152.4 ms
+(        clearBidderdata\(\);)59.5 142.4 ms
+(        // function that calculates the total winning bids of lots won for each bidd)59.5 122.4 ms
+(er)59.5 112.4 ms
+(        caluculateFeesOwed\(\);)59.5 102.4 ms
+(        for\(int i=0; i<bidders.size\(\); i++\){)59.5 82.4 ms
+(            bidderString += bidders.get\(i\).getName\(\)+"\\t")59.5 72.4 ms
+(                    +bidders.get\(i\).getNumberOfLotsWon\(\)+"\\t")59.5 62.4 ms
+(                    +bidders.get\(i\).getTotolAmountOwed\(\)+"\\n";)59.5 52.4 ms
+re sp
+%%PageTrailer
+%%Page: 4 4
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(OnlineAuctionSystem.java                                                      Page 4)59.5 792.4 ms
+F0 sf
+(        })59.5 772.4 ms
+(        return bidderString;)59.5 762.4 ms
+(    })59.5 742.4 ms
+(    // calculate the Fees owed by each bidder on closed auction)59.5 722.4 ms
+(    public void caluculateFeesOwed\(\){)59.5 712.4 ms
+(        for\(int i =0; i < auctionsList.size\(\); i++\){)59.5 692.4 ms
+(            // get only for the auctions that are closed.)59.5 672.4 ms
+(            if\(auctionsList.get\(i\).getStatus\(\) == "closed"\){)59.5 662.4 ms
+(                // loop for all the lots in the section)59.5 642.4 ms
+(                for\(int j =0; j < this.auctionsList.get\(i\).getLots\(\).size\(\); j++\){)59.5 632.4 ms
+(                    // update bidder id and the official bid for a lot in a closed a)59.5 612.4 ms
+(uction)59.5 602.4 ms
+(                    updateBidderData\(auctionsList.get\(i\).getLots\(\).get\(j\).getBidderI)59.5 592.4 ms
+(D\(\), auctionsList.get\(i\).getLots\(\).get\(j\).getOfficialBid\(\)\);)59.5 582.4 ms
+(                })59.5 572.4 ms
+(            })59.5 552.4 ms
+(        })59.5 542.4 ms
+(    })59.5 532.4 ms
+(    // function to set data into the bidders array list with the latest amounts)59.5 502.4 ms
+(    public void updateBidderData\(int bidderId, int officialBid\){)59.5 492.4 ms
+(    // loop through the bidders and update the bidder data)59.5 472.4 ms
+(        for\(int i =0; i < this.bidders.size\(\); i++\){)59.5 462.4 ms
+(            // if the bidder id matches bidder bidder)59.5 452.4 ms
+(            if\(this.bidders.get\(i\).getBidderId\(\) == bidderId\){)59.5 442.4 ms
+(                int lotswon = bidders.get\(i\).getNumberOfLotsWon\(\);)59.5 422.4 ms
+(                int totalAmountOwed = bidders.get\(i\).getTotolAmountOwed\(\);)59.5 412.4 ms
+(                // update with new bidder data)59.5 392.4 ms
+(                lotswon++;                                                  // incre)59.5 382.4 ms
+(ment the lots won.)59.5 372.4 ms
+(                totalAmountOwed = totalAmountOwed + officialBid;            // incre)59.5 362.4 ms
+(ment the total amount owed)59.5 352.4 ms
+(                // update the same in the array list)59.5 332.4 ms
+(                this.bidders.get\(i\).setNumberOfLotsWon\(lotswon\);)59.5 322.4 ms
+(                this.bidders.get\(i\).setTotolAmountOwed\(totalAmountOwed\);)59.5 312.4 ms
+(            })59.5 302.4 ms
+(        })59.5 292.4 ms
+(    })59.5 272.4 ms
+(    // Clear bidder data and set them to zero.)59.5 242.4 ms
+(    public void clearBidderdata\(\){)59.5 232.4 ms
+(        // loop through and set bidder lots won and total amount owed to zero)59.5 212.4 ms
+(        for\(int i =0; i < this.bidders.size\(\); i++\){)59.5 202.4 ms
+(            this.bidders.get\(i\).setNumberOfLotsWon\(0\);)59.5 192.4 ms
+(            this.bidders.get\(i\).setTotolAmountOwed\(0\);)59.5 182.4 ms
+(        })59.5 172.4 ms
+(    })59.5 152.4 ms
+(    // Function to check if Redundant lot is requested.)59.5 122.4 ms
+(    // return false if there is an existing lot or true if not)59.5 112.4 ms
+(    private boolean checkRedundantLots\(int firstLot, int lastLot, String name\){)59.5 102.4 ms
+(        boolean check = true;)59.5 82.4 ms
+(        for \(int i=0; i < auctionsList.size\(\); i++\){)59.5 62.4 ms
+re sp
+%%PageTrailer
+%%Page: 5 5
+%%BeginPageSetup
+sv
+0 g
+F0 sf
+%%EndPageSetup
+F1 sf
+(OnlineAuctionSystem.java                                                      Page 5)59.5 792.4 ms
+F0 sf
+(            if\(\(auctionsList.get\(i\).getFirstLot\(\) <= firstLot && firstLot <= auction)59.5 772.4 ms
+(sList.get\(i\).getLastLot\(\) \))59.5 762.4 ms
+(                    ||\(auctionsList.get\(i\).getFirstLot\(\) <= lastLot && lastLot <= au)59.5 752.4 ms
+(ctionsList.get\(i\).getLastLot\(\) \)\){)59.5 742.4 ms
+(                // Make the check false if redundant lot exists)59.5 722.4 ms
+(                check = false;)59.5 712.4 ms
+(            })59.5 702.4 ms
+(            if\(auctionsList.get\(i\).getName\(\).equals\(name\)\){)59.5 682.4 ms
+(                // Make the check false if auction of the same name exits)59.5 672.4 ms
+(                check = false;)59.5 662.4 ms
+(            })59.5 652.4 ms
+(        })59.5 642.4 ms
+(        return check;)59.5 632.4 ms
+(    })59.5 622.4 ms
+(    // check if bad data exists)59.5 592.4 ms
+(    // and returns true where there is no bad data else false)59.5 582.4 ms
+(    private boolean noBadData\(String name, int firstLot, int lastLot, int minBid\){)59.5 572.4 ms
+(        boolean check = true;)59.5 562.4 ms
+(        if\(\(name==null\) || \(firstLot <=0\) || \(lastLot<=0\) || \(minBid <= 0\) || name.i)59.5 542.4 ms
+(sEmpty\(\) || \(firstLot > lastLot\)\){)59.5 532.4 ms
+(            check = false;)59.5 522.4 ms
+(        })59.5 512.4 ms
+(        return check;)59.5 502.4 ms
+(    })59.5 492.4 ms
+(})59.5 462.4 ms
+re sp
+%%PageTrailer
+%%Trailer
+%%Pages: 5
+%%EOF
+
